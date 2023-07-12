@@ -3,16 +3,37 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+
 }
 
-body {
-  background-color: lightgrey;
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li a {
+  background-color: blueviolet;
   color: #fff;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
 }
 
-h1 {
-  color: red;
-  font-style: italic;
-  border: 1px solid red;
-  text-align: center;
+.row {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
 }
